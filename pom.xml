@@ -4,7 +4,7 @@
 
 	<groupId>com.petclinic</groupId>
 	<artifactId>emmapetclinic</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.1-SNAPSHOT</version>
 
 	<modules>
         <module>pet-clinic-data</module>
@@ -63,7 +63,7 @@
 
 	<scm>
 		<developerConnection>scm:git:git@github.com:EmmaNunoMares/emmSpringPetClinic.git</developerConnection>
-		<tag>emmapetclinic-0.0.1</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 </project>
