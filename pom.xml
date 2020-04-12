@@ -4,7 +4,7 @@
 
 	<groupId>com.petclinic</groupId>
 	<artifactId>emmapetclinic</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.1-SNAPSHOT</version>
 
 	<modules>
         <module>pet-clinic-data</module>
@@ -45,14 +45,14 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
-				<version>2.5.1</version>
-				<dependencies>
+				<!--<version>2.5.1</version>-->
+				<!--<dependencies>
 					<dependency>
 						<groupId>org.apache.maven.shared</groupId>
 						<artifactId>maven-invoker</artifactId>
 						<version>2.2</version>
 					</dependency>
-				</dependencies>
+				</dependencies>-->
                 <configuration>
                     <goals>install</goals>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
@@ -62,8 +62,8 @@
 	</build>
 
 	<scm>
-		<developerConnection>scm:git:git@github.com:EmmaNunoMares/emmSpringPetClinic.git</developerConnection>
-		<tag>emmapetclinic-0.0.1</tag>
+		<url>https://github.com/EmmaNunoMares/emmSpringPetClinic</url>
+		<developerConnection>scm:git:https://github.com/EmmaNunoMares/emmSpringPetClinic.git</developerConnection>
+		<tag>HEAD</tag>
 	</scm>
-
 </project>
